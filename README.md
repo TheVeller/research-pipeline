@@ -64,6 +64,10 @@ YouTube pipeline: find 5 videos about Obsidian workflows, analyze gaps
 
 The agent never re-reads the scraped corpus. Analysis output is piped to a temp file and written verbatim into the note — Google's NotebookLM does the heavy lifting. See [`skills/research-pipeline/SKILL.md`](./skills/research-pipeline/SKILL.md) for the full step-by-step.
 
+## More skills
+
+Part of my skills collection → [**TheVeller/claude-skills**](https://github.com/TheVeller/claude-skills) (organized by category). Discover and install more agent skills via [skills.sh](https://skills.sh) (`npx skills add <owner>/<repo> -s <skill>`).
+
 ## License
 
 MIT © [Ignacio Alberto Velásquez Franco (@TheVeller)](https://github.com/TheVeller)
